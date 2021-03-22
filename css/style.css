@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+form {
+    margin: 0 auto;
+    margin-top: 31px;
+    height: 392px;
+    width: 481px;
+    left: 272px;
+    top: 31px;
+    border-radius: 12px;
+    background: #F7F5F9;
+}
+label {
+    color: #3B3D43;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: bold;
+    width: 168px;
+    height: 20px;
+    left: 312px;
+    top: 71px;
+}
+.group-container {
+    margin-top: 25px;
+    margin: 0 auto;
+}
