@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: $main-font;
+    overflow-x: hidden;
+    -ms-scroll-limit-x-max: 0;
+  }
+  button {
+    cursor: pointer;
+    outline-color: #000;
+  
+    &:focus {
+      outline: none;
+    }
+  
+    &:focus-visible {
+      outline: 1px solid #000;
+    }
+  }
+  
+  input {
+    &:focus {
+      outline: none;
+    }
+  
+    &:focus-visible {
+      outline: 1px solid #000;
+    }
+  }

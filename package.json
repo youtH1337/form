@@ -1,0 +1,37 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youtH1337/form.git"
+  },
+  "author": "nikita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youtH1337/form/issues"
+  },
+  "homepage": "https://github.com/youtH1337/form#readme",
+  "devDependencies": {
+    "autoprefixer": "10.2.5",
+    "browser-sync": "2.26.14",
+    "copy-webpack-plugin": "8.1.0",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-csso": "4.0.1",
+    "gulp-debug": "4.0.0",
+    "gulp-htmlmin": "5.0.1",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-rename": "2.0.0",
+    "gulp-replace": "1.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "postcss": "8.2.8"
+  }
+}
